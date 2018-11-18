@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asimz.humanassistantrobot.AboutUs"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="74dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="HAR"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="HAR is an human assistant robot that uses Amazon voice services to interact with you . Alexa  will love to answer your questions , manage your emails , play music for you and help you with internet searches. The robot uses computer vision to detect obstacles and it can follow you if you will ask him to do so . You can put your goods in it and even you can use it as a photobooth. The robot can rontrol your home appliances and you can also control your appliances using this app.  "
+
+            android:textColor="#ffffff"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+
+            android:paddingRight="10dp"
+
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="HAR is Final year project of students of SSUET . The project is Submitted by,"></TextView>
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="SYED HASAN                    2015-EE-121\nASIM ZULFIQAR               2015-EE-129\nMUHAMMAD QAMAR     2015-EE-131\nSYED MOHIB HUSSAIN   2015-EE-140"></TextView>
+
+        <TextView
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+
+            android:text="Under the Supervision of Sir Fahad Ahmed Siddiqui."></TextView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

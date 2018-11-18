@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:title="Home Automation"
+    tools:context=".HomeAutomation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#B71C1C"
+                android:gravity="center"
+                android:onClick="CurtainClose"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/curtainclose" />
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FAFAFA"
+                android:gravity="center"
+                android:onClick="CurtainOpen"
+
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/curtainopen" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FAFAFA"
+                android:gravity="center"
+                android:onClick="Bulb1off"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bulb" />
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#B71C1C"
+                android:gravity="center"
+                android:onClick="Bulb1on"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bulbon" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#B71C1C"
+                android:gravity="center"
+                android:onClick="Bulb2off"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bulb" />
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FAFAFA"
+                android:gravity="center"
+                android:onClick="Bulb2on"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bulbon" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FAFAFA"
+                android:gravity="center"
+                android:onClick="Bulb3off"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bulb" />
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#B71C1C"
+                android:gravity="center"
+                android:onClick="Bulb3on"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bulbon" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
